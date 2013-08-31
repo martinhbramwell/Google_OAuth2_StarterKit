@@ -23,13 +23,6 @@ HELP = LONG + 1
 REQUIRED = HELP + 1
 DEFAULT = REQUIRED + 1
 
-'''
-arguments = {}
-arguments['description'] = 'Helper to initialize Google uid/pwd logins'
-arguments['switches'] = [["u", "--user_id", "Name of the connecting user."], ["p", "--user_pwd", "Password of the connecting user."], ["r", "--start_row", "Row in Tasks sheet at which to start processing ."]]
-arguments['positional'] = {'val': 'key', 'help': 'A Google Spreadsheet key'}
-'''
-
 class InputError(Exception):
     """ Exception raised for errors in the input.
     Attributes:

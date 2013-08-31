@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 
-   The full program is explained here:  http://martinhbramwell.github.io/GData_OpenERP_Data_Pump
+   The full program is explained in the attached ReadMe.md
 
     Copyright (C) 2013 warehouseman.com
 
@@ -192,5 +192,5 @@ if __name__ == '__main__':
 
     main()
 	
-# 0AhgdNB3-bSxAdDFBQWJ3YTAzd015UFJTZ3FwZlc1TlE
+
 	
