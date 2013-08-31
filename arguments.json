@@ -1,0 +1,11 @@
+{
+    "description": "A tool for getting OAuth access and refresh tokens from Google. Refer to the Google API console page to prepare the necessary codes: https://code.google.com/apis/console/#project:204618981389:access"
+  , "positional": {"help": "A Google document key", "val": "Document_key"}
+  , "switches": 
+    [
+        ["i", "Client_Id", "Obtain from the above URI.", "Cached", "None"]
+      , ["r", "Redirect_URI", "A URL, either of your service or of Google's pseudo callback (our default).", "Cached", "urn:ietf:wg:oauth:2.0:oob"]
+      , ["s", "Client_secret", "Obtain from the above URI.", "Cached", "None"]
+    ]
+}
+
